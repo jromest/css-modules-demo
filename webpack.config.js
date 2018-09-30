@@ -29,10 +29,7 @@ module.exports = {
       },
       {
         test: /\.css/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]"
-        ]
+        use: [MiniCssExtractPlugin.loader, "css-loader"]
       }
     ]
   },
