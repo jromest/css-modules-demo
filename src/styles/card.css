@@ -1,0 +1,28 @@
+.shared {
+  border: 2px solid #333;
+  border-radius: 10px;
+  height: 100px;
+  margin: 20px;
+  padding: 50px;
+}
+
+.primary {
+  composes: shared;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.success {
+  composes: shared;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.danger {
+  composes: shared;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
