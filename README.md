@@ -26,4 +26,4 @@ And to run locally,
 npm run server
 ```
 
-_You have build it first before running the server_
+_You have to build it first before running the server_
